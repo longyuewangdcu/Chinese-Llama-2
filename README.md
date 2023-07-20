@@ -2,12 +2,14 @@
 
 <!-- **Authors:** -->
 
-**_¹² [Zefeng Du](https://seeledu.github.io/index-en.html), ³ [Minghao Wu](https://minghao-wu.github.io/), ¹ <sup>*</sup> [Longyue Wang](http://www.longyuewang.com/)_**
+**_¹² <sup>&dagger;</sup>[Zefeng Du](https://seeledu.github.io/index-en.html), ³ <sup>&dagger;</sup>[Minghao Wu](https://minghao-wu.github.io/), ¹ <sup>*</sup> [Longyue Wang](http://www.longyuewang.com/)_**
 
 
 <!-- **Affiliations:** -->
 
 _¹ Tencent AI Lab,  ²University of Macau, ³ Monash University_,
+
+_<sup>&dagger;</sup>equal contribution_
 
 _<sup>*</sup>Longyue Wang is the corresponding author: [vinnlywang@tencent.com](mailto:{vinnlywang@tencent.com)_
 </div>

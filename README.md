@@ -24,11 +24,11 @@ _<sup>*</sup>Longyue Wang is the corresponding author: [vinnlywang@tencent.com](
 
 Chinese-Llama-2 is a project that aims to expand the impressive capabilities of the Llama-2 language model to the Chinese language. Developed by MetaAI, Llama-2 has already proven to be a powerful language model. In this project, we focus on three key areas of research:
 
-1. Parameter-efficient fine-tuning: We employ the [LoRA (Low-Rank Adaptation)](https://arxiv.org/abs/2106.09685) technique to fine-tune Llama-2 specifically for the Chinese instruction dataset. This approach optimizes the model's performance while minimizing the number of required parameters.
+1. **Parameter-efficient fine-tuning**: We employ the [LoRA (Low-Rank Adaptation)](https://arxiv.org/abs/2106.09685) technique to fine-tune Llama-2 specifically for the Chinese instruction dataset. This approach optimizes the model's performance while minimizing the number of required parameters.
 
-2. Full instruction fine-tuning: We fine-tune all parameters of Llama-2 on the Chinese instruction dataset. By allowing the model to adapt fully to the characteristics of the Chinese language, we enhance its proficiency and accuracy in generating Chinese text.
+2. **Full instruction fine-tuning**: We fine-tune all parameters of Llama-2 on the Chinese instruction dataset. By allowing the model to adapt fully to the characteristics of the Chinese language, we enhance its proficiency and accuracy in generating Chinese text.
 
-3. Continued pre-training: To further enhance Llama-2's Chinese language understanding, we continue its pre-training on large-scale Chinese corpora. By exposing the model to vast amounts of Chinese text data, we enable it to capture intricate linguistic patterns and nuances, resulting in improved language generation.
+3. **Continued pre-training**: To further enhance Llama-2's Chinese language understanding, we continue its pre-training on large-scale Chinese corpora. By exposing the model to vast amounts of Chinese text data, we enable it to capture intricate linguistic patterns and nuances, resulting in improved language generation.
 
 This repository contains all the necessary code and resources to implement the aforementioned areas of research, facilitating experimentation and advancement in Chinese natural language processing using the Llama-2 model.
 

@@ -1,0 +1,10 @@
+torch == 1.13.1
+evaluate == 0.4.0
+datasets == 2.10.0
+accelerate == 0.18.0
+git+https://github.com/microsoft/DeepSpeed.git
+fairscale == 0.4.13
+tensorboard == 2.12.1
+sentencepiece == 0.1.97
+protobuf
+scikit-learn

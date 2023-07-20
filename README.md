@@ -60,7 +60,7 @@ The LoRA weights for [meta-llama/Llama-2-7b-hf](https://huggingface.co/meta-llam
 
 
 ### Datasets
-We finetune the Llama-2 on the Chinese instruction dataset [COIG](https://huggingface.co/datasets/BAAI/COIG) and 20K Chinese-English parallel documents translation data. 
+We finetune the Llama-2 on the Chinese instruction dataset [COIG](https://huggingface.co/datasets/BAAI/COIG) and 200K Chinese-English parallel documents translation data. 
 
 
 

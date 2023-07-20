@@ -69,6 +69,18 @@ import transformers
 # TODO: ADD THE INFERENCE CODE
 ```
 
+```bash 
+path= #path to the project
+model_path= #path to the origin model
+lora_model_path== #path to the lora model
+python3 $path/test/inference_lora.py --model-name-or-path $model_path \
+    --lora-weights $lora_model_path\
+    -t 0.7 \
+    -sa 'sample' \
+    -i $path/test/test_case.txt \
+    -o $path/test/test_case.general-task.txt
+```
+
 ### Showcases
 
 
@@ -91,7 +103,8 @@ export NCCL_NET_GDR_READ=1
 export MASTER_ADDR="${CHIEF_IP:=localhost}"
 export MASTER_PORT="${MASTER_PORT:=29500}"
 
-train_path=transformers/examples/pytorch/language-modeling/run_clm_lora.py
+path= #path to the project
+train_path=$path/train/run_clm_lora.py
 
 model_path=$path/model/llama2-7B-HF
 model_save=$path/checkpoint/chinese-llama2-7b-4096-enzh/

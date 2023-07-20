@@ -1,4 +1,4 @@
-# Chinese-Llama-2-LoRA: Low-Rank Adaptation for Llama on Chinese Instruction Dataset
+# Chinese-Llama-2
 
 <!-- **Authors:** -->
 
@@ -14,29 +14,22 @@ _<sup>*</sup>Longyue Wang is the corresponding author: [vinnlywang@tencent.com](
 
 [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)]()
 
-Chinese-Llama-2-LoRA is a project that focuses on applying [LoRA (Low-Rank Adaptation)](https://arxiv.org/abs/2106.09685) technique to fine-tune the Llama-2 on the Chinese instruction dataset [COIG](https://huggingface.co/datasets/BAAI/COIG) and sampled Chinese-English parallel documents. Llama-2 is a powerful language model developed by MetaAI, and with the help of LoRA, it can be further optimized for Chinese language understanding and generation tasks.
-
-This repository contains the code and resources required to finetune Llama-2 using LoRA on a Chinese instruction dataset. By leveraging the unique characteristics of the LoRA technique, Chinese-Llama-2-LoRA enhances the capabilities of Llama-2 for handling Chinese natural language processing tasks.
-
-## Key Features
-
-- Fine-tune Llama-2 on Chinese instruction dataset using LoRA.
-- Improve Chinese language understanding and generation capabilities of Llama.
-- High-quality and state-of-the-art results on various Chinese NLP tasks.
-- Easy-to-use codebase with clear instructions for usage.
-
-## Model Checkpoints
-
-The LoRA weights for [meta-llama/Llama-2-7b-hf](https://huggingface.co/meta-llama/Llama-2-7b-hf) can be found at here. More model weights will be available soon.
 
 
-## Datasets
-We finetune the Llama-2 on the Chinese instruction dataset [COIG](https://huggingface.co/datasets/BAAI/COIG) and 200K Chinese-English parallel documents translation data. 
+Chinese-Llama-2 is a project that aims to expand the impressive capabilities of the Llama-2 language model to the Chinese language. Developed by MetaAI, Llama-2 has already proven to be a powerful language model. In this project, we focus on three key areas of research:
+
+1. Parameter-efficient fine-tuning: We employ the [LoRA (Low-Rank Adaptation)](https://arxiv.org/abs/2106.09685) technique to fine-tune Llama-2 specifically for the Chinese instruction dataset. This approach optimizes the model's performance while minimizing the number of required parameters.
+
+2. Fully instruction fine-tuning: We fine-tune all parameters of Llama-2 on the Chinese instruction dataset. By allowing the model to adapt fully to the characteristics of the Chinese language, we enhance its proficiency and accuracy in generating Chinese text.
+
+3. Continued pre-training: To further enhance Llama-2's Chinese language understanding, we continue its pre-training on large-scale Chinese corpora. By exposing the model to vast amounts of Chinese text data, we enable it to capture intricate linguistic patterns and nuances, resulting in improved language generation.
+
+This repository contains all the necessary code and resources to implement the aforementioned areas of research, facilitating experimentation and advancement in Chinese natural language processing using the Llama-2 model.
 
 
 ## Installation
 
-To use Chinese-Llama-2-LoRA, follow these steps:
+To use Chinese-Llama-2, follow these steps:
 
 1. Clone the repository:
 
@@ -47,7 +40,7 @@ To use Chinese-Llama-2-LoRA, follow these steps:
 2. Change into the project directory:
 
    ```bash
-   cd Chinese-Llama-2-LoRA
+   cd chinese-llama-2
    ```
 
 3. Install the required dependencies:
@@ -56,12 +49,22 @@ To use Chinese-Llama-2-LoRA, follow these steps:
    pip install -r requirements.txt
    ```
 
-3. Download the pretrained Llama model and the Chinese instruction dataset.
 
-   > Note: The Llama model should be obtained separately from OpenAI's website, and the Chinese instruction dataset should be acquired based on the licensing and data rights.
+## Parameter-Efficient Fine-Tuning
+
+### Model Checkpoints
+
+The LoRA weights for [meta-llama/Llama-2-7b-hf](https://huggingface.co/meta-llama/Llama-2-7b-hf) can be found at here. More model weights will be available soon.
 
 
-## Usage
+### Datasets
+We finetune the Llama-2 on the Chinese instruction dataset [COIG](https://huggingface.co/datasets/BAAI/COIG) and 20K Chinese-English parallel documents translation data. 
+
+
+
+
+
+### Usage
 
 To finetune Llama-2 using LoRA on the Chinese instruction dataset, Run the command to start lora finetune.:
 
@@ -120,11 +123,18 @@ To finetune Llama-2 using LoRA on the Chinese instruction dataset, Run the comma
         --output_dir ${model_save}
     ```
 
+## TODO
+
+1. Fully instruction fine-tuning
+2. Continued pre-training
+
+Stay tuned!
+
 ## Contributing
 
-Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request. We appreciate your contributions to make Chinese-Llama-2-LoRA even better.
+Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request. We appreciate your contributions to make Chinese-Llama-2 even better.
 
 
 ## Acknowledgments
 
-Chinese-Llama-2-LoRA builds upon the Llama-2 developed by MetaAI. We would like to express our gratitude to the MetaAI team for their outstanding work and contributions to the field of natural language processing.
+Chinese-Llama-2 builds upon the Llama-2 developed by MetaAI. We would like to express our gratitude to the MetaAI team for their outstanding work and contributions to the field of natural language processing.

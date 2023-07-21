@@ -64,7 +64,9 @@ The LoRA weights for [meta-llama/Llama-2-7b-hf](https://huggingface.co/meta-llam
 
 ### Using the Model
 You use our fine-tuned model as follows:
-Prepare the llama2 model and lora model in your local path. You can download the lora model weight use this [link](https://huggingface.co/seeledu/Chinese-Llama-2-LoRA-7B/). 
+
+Prepare the llama2 model and lora model in your local path. You can download the lora model weight use this [link](https://huggingface.co/seeledu/Chinese-Llama-2-LoRA-7B/) or [百度网盘](https://pan.baidu.com/s/1SweESeylSd7eUkPsFucyyQ?pwd=zq4r). 
+
 ```bash 
 path= #path to the project
 model_path= #path to the origin model

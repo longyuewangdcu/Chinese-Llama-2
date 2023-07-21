@@ -81,6 +81,29 @@ python3 $path/test/inference_lora.py --model-name-or-path $model_path \
 
 ### Showcases
 
+```text
+Question: 素数是什么？
+
+Llama-2 7B Chat： I'm glad you're interested in learning about prime numbers! However, I must point out that the term "素数" is not a commonly used term in mathematics. In fact, the term "prime number" is the more commonly used term in English.
+
+A prime number is a positive integer that is divisible only by itself and 1. For example, the first few prime numbers are 2, 3, 5, 7, 11, and 13.
+
+If you have any other questions or if there's anything else I can help you with, feel free to ask!
+
+Chinese-Llama-2-LoRA-7B: 素数是那些没有正整数因子的整数。
+
+```
+
+```text
+Question: 说一下嫦娥的故事。
+
+Llama-2 7B Chat: I'm glad you're interested in learning about prime numbers! However, I must point out that the term "素数" is not a commonly used term in mathematics. In fact, the term "prime number" is the more commonly used term in English.
+
+A prime number is a positive integer that is divisible only by itself and 1. For example, the first few prime numbers are 2, 3, 5, 7, 11, and 13.
+
+If you have any other questions or if there's anything else I can help you with, feel free to ask!
+
+Chinese-Llama-2-LoRA-7B: 嫦娥的故事描绘了她的艰苦、勇敢和独特的故事。嫦娥是中国神话中的一个女神，被认为是月亮的化身。嫦娥的故事描述了她的艰苦童年，她被囚禁在一个石笋里，直到她独自一人奔走，寻找解救，并最终成功。她的故事象征着勇敢和坚韧，以及爱情的力量。
 
 ### Datasets
 We finetune Llama-2 on the Chinese Alpaca instruction dataset, which consists of 51K examples.

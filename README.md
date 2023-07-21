@@ -17,7 +17,7 @@ _<sup>*</sup>Longyue Wang is the corresponding author: [vinnlywang@tencent.com](
 [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)]()
 
 ## News
-* [2023.07.20] :rocket: We fine-tune the Llama-2 on the Chinese instruction dataset using LoRA technique, known as Chinese-Llama-2-LoRA, and release the [Chinese-Llama-2-LoRA-7B](some link).
+* [2023.07.20] :rocket: We fine-tune the Llama-2 on the Chinese instruction dataset using LoRA technique, known as Chinese-Llama-2-LoRA, and release the [Chinese-Llama-2-LoRA-7B](https://huggingface.co/seeledu/Chinese-Llama-2-LoRA-7B/).
 * [2023.07.18] :tada::tada::tada: [Llama-2 is announced!](https://ai.meta.com/llama/)
 
 ## Overview
@@ -60,7 +60,7 @@ To use Chinese-Llama-2, follow these steps:
 
 ### Model Checkpoints
 
-The LoRA weights for [meta-llama/Llama-2-7b-hf](https://huggingface.co/meta-llama/Llama-2-7b-hf) can be found at here. More model weights will be available soon.
+The LoRA weights for [meta-llama/Llama-2-7b-hf](https://huggingface.co/meta-llama/Llama-2-7b-hf) can be found at [here](https://huggingface.co/seeledu/Chinese-Llama-2-LoRA-7B/). More model weights will be available soon.
 
 ### Using the Model
 You use our fine-tuned model as follows:
@@ -85,12 +85,12 @@ python3 $path/test/inference_lora.py --model-name-or-path $model_path \
 
 
 ### Datasets
-We finetune the Llama-2 on the Chinese instruction dataset [COIG](https://huggingface.co/datasets/BAAI/COIG) and 200K Chinese-English parallel documents translation data. 
+We finetune Llama-2 on the Chinese Alpaca instruction dataset, which consists of 51K examples.
 
 
 ### Fine-Tuning
 
-To finetune Llama-2 using LoRA on the Chinese instruction dataset, Run the command to start lora finetune.:
+To finetune Llama-2 using LoRA on the Chinese instruction dataset, Run the command to start LoRA finetune.:
 ```bash
 # Multi-nodes are also supported
 

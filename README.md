@@ -64,11 +64,6 @@ The LoRA weights for [meta-llama/Llama-2-7b-hf](https://huggingface.co/meta-llam
 
 ### Using the Model
 You use our fine-tuned model as follows:
-```python
-import transformers
-# TODO: ADD THE INFERENCE CODE
-```
-
 ```bash 
 path= #path to the project
 model_path= #path to the origin model

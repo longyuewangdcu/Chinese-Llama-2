@@ -84,26 +84,37 @@ python3 $path/test/inference_lora.py --model-name-or-path $model_path \
 ```text
 Question: 素数是什么？
 
-**Llama-2 7B Chat**： I'm glad you're interested in learning about prime numbers! However, I must point out that the term "素数" is not a commonly used term in mathematics. In fact, the term "prime number" is the more commonly used term in English.
-
-A prime number is a positive integer that is divisible only by itself and 1. For example, the first few prime numbers are 2, 3, 5, 7, 11, and 13.
-
+Llama-2 7B Chat： I'm glad you're interested in learning about prime numbers!
+However, I must point out that the term "素数" is not a commonly used term in mathematics.
+In fact, the term "prime number" is the more commonly used term in English.
+A prime number is a positive integer that is divisible only by itself and 1.
+For example, the first few prime numbers are 2, 3, 5, 7, 11, and 13.
 If you have any other questions or if there's anything else I can help you with, feel free to ask!
 
-**Chinese-Llama-2-LoRA-7B**: 素数是那些没有正整数因子的整数。
+
+Chinese-Llama-2-LoRA-7B: 素数是那些没有正整数因子的整数。
 
 ```
 
 ```text
 Question: 说一下嫦娥的故事。
 
-**Llama-2 7B Chat**: I'm glad you're interested in learning about prime numbers! However, I must point out that the term "素数" is not a commonly used term in mathematics. In fact, the term "prime number" is the more commonly used term in English.
+Llama-2 7B Chat: I'm happy to help! Chang'e is a fascinating figure in Chinese mythology.
+She is often depicted as a beautiful goddess who was banished to the moon after eating an immortal herb.
+According to legend, Chang'e was once a mortal woman named Xihe who was married to the archer god Houyi.
+Houyi was said to be the only one capable of killing the sun god, Yao, who was tormenting humans with his fiery breath.
+ With Houyi's help, the humans were able to defeat Yao and were rewarded with immortality.
+However, Chang'e became curious about the immortal herb that Houyi had used to kill Yao, and she decided to eat it.
+As soon as she did, she was transformed into a goddess and was sent to the moon.
+Houyi followed her to the moon, but he was unable to reach her due to a magical barrier that surrounded the moon.
+From the moon, Chang'e watched over the earth and its inhabitants, and she became known as the goddess of the moon, fertility, and protection.
+She is often depicted with a rabbit companion named Jade Rabbit, who is said to be her pet and assistant.
+Chang'e's story has been passed down for generations, and it continues to be an important part of Chinese mythology and culture.
+Her legacy as a powerful, compassionate goddess continues to inspire people to this day.
 
-A prime number is a positive integer that is divisible only by itself and 1. For example, the first few prime numbers are 2, 3, 5, 7, 11, and 13.
 
-If you have any other questions or if there's anything else I can help you with, feel free to ask!
-
-**Chinese-Llama-2-LoRA-7B**: 嫦娥的故事描绘了她的艰苦、勇敢和独特的故事。嫦娥是中国神话中的一个女神，被认为是月亮的化身。嫦娥的故事描述了她的艰苦童年，她被囚禁在一个石笋里，直到她独自一人奔走，寻找解救，并最终成功。她的故事象征着勇敢和坚韧，以及爱情的力量。
+Chinese-Llama-2-LoRA-7B: 嫦娥的故事描绘了她的艰苦、勇敢和独特的故事。嫦娥是中国神话中的一个女神，被认为是月亮的化身。
+嫦娥的故事描述了她的艰苦童年，她被囚禁在一个石笋里，直到她独自一人奔走，寻找解救，并最终成功。她的故事象征着勇敢和坚韧，以及爱情的力量。
 ```
 ### Datasets
 We finetune Llama-2 on the Chinese Alpaca instruction dataset, which consists of 51K examples.
@@ -111,7 +122,7 @@ We finetune Llama-2 on the Chinese Alpaca instruction dataset, which consists of
 
 ### Fine-Tuning
 
-To finetune Llama-2 using LoRA on the Chinese instruction dataset, Run the command to start LoRA finetune.:
+To finetune Llama-2 using LoRA on the Chinese instruction dataset, Run the command to start LoRA finetune:
 ```bash
 # Multi-nodes are also supported
 

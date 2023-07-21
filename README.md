@@ -7,7 +7,7 @@
 
 <!-- **Affiliations:** -->
 
-_¹ Tencent AI Lab,  ²University of Macau, ³ Monash University_,
+_¹ Tencent AI Lab,  ² University of Macau, ³ Monash University_,
 
 _<sup>&dagger;</sup>equal contribution_
 

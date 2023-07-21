@@ -104,7 +104,7 @@ A prime number is a positive integer that is divisible only by itself and 1. For
 If you have any other questions or if there's anything else I can help you with, feel free to ask!
 
 Chinese-Llama-2-LoRA-7B: 嫦娥的故事描绘了她的艰苦、勇敢和独特的故事。嫦娥是中国神话中的一个女神，被认为是月亮的化身。嫦娥的故事描述了她的艰苦童年，她被囚禁在一个石笋里，直到她独自一人奔走，寻找解救，并最终成功。她的故事象征着勇敢和坚韧，以及爱情的力量。
-
+```
 ### Datasets
 We finetune Llama-2 on the Chinese Alpaca instruction dataset, which consists of 51K examples.
 

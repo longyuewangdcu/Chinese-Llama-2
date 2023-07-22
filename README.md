@@ -1,4 +1,6 @@
-# Chinese-Llama-2
+# Chinese-Llama-2: 中文大模型
+
+## 基于Llama-2的二次预训练、指令精调，增强中文能力。
 
 <!-- **Authors:** -->
 

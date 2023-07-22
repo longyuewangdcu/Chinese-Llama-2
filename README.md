@@ -1,5 +1,4 @@
-# Chinese-Llama-2: Chinese Large Language Model 
-# 中文Llama-2大模型
+# Chinese-Llama-2: 中文Llama-2大模型
 
 <!-- **Authors:** -->
 

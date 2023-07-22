@@ -17,6 +17,7 @@ _<sup>*</sup>Longyue Wang is the corresponding author: [vinnlywang@tencent.com](
 [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)]()
 
 ## News
+* [2023.07.22] :rocket: We fine-tune the Llama-2 on the Chinese instruction dataset, known as Chinese-Llama-2, and release the [Chinese-Llama-2-7B](seeledu/Chinese-Llama-2-7B).
 * [2023.07.20] :rocket: We fine-tune the Llama-2 on the Chinese instruction dataset using LoRA technique, known as Chinese-Llama-2-LoRA, and release the [Chinese-Llama-2-LoRA-7B](https://huggingface.co/seeledu/Chinese-Llama-2-LoRA-7B/).
 * [2023.07.18] :tada::tada::tada: [Llama-2 is announced!](https://ai.meta.com/llama/)
 
@@ -26,7 +27,7 @@ Chinese-Llama-2 is a project that aims to expand the impressive capabilities of 
 
 1. **Parameter-efficient fine-tuning**: We employ the [LoRA (Low-Rank Adaptation)](https://arxiv.org/abs/2106.09685) technique to fine-tune Llama-2 specifically for the Chinese instruction dataset. This approach optimizes the model's performance while minimizing the number of required parameters.
 
-2. **Full instruction fine-tuning**: We fine-tune all parameters of Llama-2 on the Chinese instruction dataset. By allowing the model to adapt fully to the characteristics of the Chinese language, we enhance its proficiency and accuracy in generating Chinese text.
+2. **Full instruction fine-tuning**: We fine-tune all parameters of Llama-2 on the Chinese instruction dataset, [BAAI/COIG] (https://huggingface.co/datasets/BAAI/COIG) and Chinese-English Doc-level translation dataset. By allowing the model to adapt fully to the characteristics of the Chinese language, we enhance its proficiency and accuracy in generating Chinese text.
 
 3. **Continued pre-training**: To further enhance Llama-2's Chinese language understanding, we continue its pre-training on large-scale Chinese corpora. By exposing the model to vast amounts of Chinese text data, we enable it to capture intricate linguistic patterns and nuances, resulting in improved language generation.
 

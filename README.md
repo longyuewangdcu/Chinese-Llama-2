@@ -76,7 +76,20 @@ python3 $path/test/inference_lora.py --model-name-or-path $model_path \
     -i $path/test/test_case.txt \
     -o $path/test/test_case.general-task.txt
 ```
+## Full instruction fine-tuning
+The full Chinese instruction fine-tuning weights for [meta-llama/Llama-2-7b-hf](https://huggingface.co/meta-llama/Llama-2-7b-hf) can be found at [seeledu/Chinese-Llama-2-7B](https://huggingface.co/seeledu/Chinese-Llama-2-7B/) or [百度网盘](https://pan.baidu.com/s/1NNcv6aw6rR9RsmO9txxxhg?pwd=futk). 
 
+### Using the Model
+You use our fine-tuned model as follows:
+```bash 
+path= #path to the project
+model_path= #path to the model
+python3 $path/test/inference.py --model-name-or-path $model_path \
+    -t 0.7 \
+    -sa 'sample' \
+    -i $path/test/test_case.txt \
+    -o $path/test/test_case.general-task.txt
+```
 ### Showcases
 
 Example 1:

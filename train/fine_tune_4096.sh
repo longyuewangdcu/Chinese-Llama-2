@@ -25,8 +25,8 @@ torchrun --nnodes $HOST_NUM --node_rank $INDEX --nproc_per_node 8 \
     ${train_path} \
     --deepspeed $path/train/deepspeed_config_bf16.json \
     --model_name_or_path ${model_path} \
-    --train_file $path/data/instruction/all_instruction_hf.json \
-    --validation_file $path/data/instruction/all_instruction_hf_dev.json \
+    --train_file $path/data/instruction/example_instruction_hf.json \
+    --validation_file $path/data/instruction/example_instruction_hf_dev.json \
     --preprocessing_num_workers 32 \
     --per_device_train_batch_size 8 \
     --per_device_eval_batch_size 8 \

@@ -17,7 +17,7 @@ _<sup>*</sup>Longyue Wang is the corresponding author: [vinnlywang@tencent.com](
 [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)]()
 
 ## News
-* [2023.07.22] :rocket: We fine-tune the Llama-2 on the Chinese instruction dataset, known as Chinese-Llama-2, and release the [Chinese-Llama-2-7B](seeledu/Chinese-Llama-2-7B). The full instruction fine-tuning code and example data are also released.
+* [2023.07.22] :rocket: We fine-tune the Llama-2 on the Chinese instruction dataset, known as Chinese-Llama-2, and release the Chinese-Llama-2-7B at [seeledu/Chinese-Llama-2-7B](https://huggingface.co/seeledu/Chinese-Llama-2-7B). The full instruction fine-tuning code and example data are also released.
 * [2023.07.20] :rocket: We fine-tune the Llama-2 on the Chinese instruction dataset using LoRA technique, known as Chinese-Llama-2-LoRA, and release the [Chinese-Llama-2-LoRA-7B](https://huggingface.co/seeledu/Chinese-Llama-2-LoRA-7B/).
 * [2023.07.18] :tada::tada::tada: [Llama-2 is announced!](https://ai.meta.com/llama/)
 

@@ -137,7 +137,6 @@ if __name__ == "__main__":
     model = AutoModelForCausalLM.from_pretrained(model_name_or_path, torch_dtype=torch.bfloat16, device_map="auto")
     #, offload_folder="offload",offload_state_dict = True,    
     print(model.hf_device_map)
-    model.push_to_hub("seeledu/Chinese-Llama-2-7B", use_auth_token="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")
 
     gen_config = GenerationConfig(temperature=temperature,
                                   top_p=0.9,

@@ -53,6 +53,7 @@ To use Chinese-Llama-2, follow these steps:
 3. Install the required dependencies:
 
    ```bash
+   pip install -e ./transformers
    pip install -r requirements.txt
    ```
 

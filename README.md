@@ -233,7 +233,7 @@ torchrun --nnodes $HOST_NUM --node_rank $INDEX --nproc_per_node 8 \
 ## TODO
 
 1. Continued pre-training
-2. Release fine-tune data we used
+2. Release fine-tuned data we used
 
 Stay tuned!
 
@@ -243,5 +243,9 @@ Contributions are welcome! If you have any ideas, suggestions, or bug reports, p
 
 
 ## Acknowledgments
+Chinese-Llama-2 builds upon the Llama-2 developed by MetaAI. We would like to express our gratitude to the following open-source projects for their valuable contributions to the community:
 
-Chinese-Llama-2 builds upon the Llama-2 developed by MetaAI. We would like to express our gratitude to the MetaAI team for their outstanding work and contributions to the field of natural language processing.
+- [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca/) for providing the Alpaca dataset, we used its data format in our experiments.
+- [Parrot](https://github.com/wxjiao/parrot) for providing a helpful implementation of the training of LLaMA.
+- [LLaMA-2](https://huggingface.co/docs/transformers/main/model_doc/llama2) for providing a powerful LLM.
+

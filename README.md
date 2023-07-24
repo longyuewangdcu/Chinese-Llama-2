@@ -2,7 +2,7 @@
 
 <!-- **Authors:** -->
 
-**_¹² <sup>&dagger;</sup>[Zefeng Du](https://seeledu.github.io/index-en.html), ³ <sup>&dagger;</sup>[Minghao Wu](https://minghao-wu.github.io/), <sup>*</sup> [Longyue Wang](http://www.longyuewang.com/)_**
+**_¹ <sup>&dagger;</sup>[Zefeng Du](https://seeledu.github.io/index-en.html), ² <sup>&dagger;</sup>[Minghao Wu](https://minghao-wu.github.io/), <sup>*</sup> [Longyue Wang](http://www.longyuewang.com/)_**
 
 
 <!-- **Affiliations:** -->

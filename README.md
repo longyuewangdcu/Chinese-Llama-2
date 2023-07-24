@@ -11,7 +11,7 @@ _¹ University of Macau, ² Monash University_,
 
 _<sup>&dagger;</sup>equal contribution_
 
-_<sup>*</sup>Longyue Wang is the corresponding author: [vinnlywang@tencent.com](mailto:{vinnlywang@tencent.com)_
+_<sup>*</sup>Longyue Wang is the corresponding author: [vincentwang0229@gmail.com](mailto:vincentwang0229@gmail.com)_
 </div>
 
 [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)]()

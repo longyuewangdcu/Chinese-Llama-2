@@ -1,7 +1,8 @@
 # Text generation
-
-path= #path to the project
-model_path= #path to the  model
+# path to the project
+path=
+# path to the model
+model_path=
 python3 $path/test/inference.py --model-name-or-path $model_path \
     -t 0.7 \
     -sa 'sample' \

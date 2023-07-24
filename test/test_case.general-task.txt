@@ -1,0 +1,24 @@
+ Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+介绍一下故宫。
+
+### Response:故宫是中国北京市的一个宫殿建筑群，曾经是中国历代皇帝的官方居所。它是中国最大和最重要的古代皇宫建筑群之一，被誉为中国古代皇宫建筑的瑰宝。故宫内有众多宫殿和建筑，包括神圣的地下帝王陵墓。故宫是中国历史和文化的重要象征，也是中国的国宝之一。
+ Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+素数是什么？
+
+### Response:素数是大于一且只能被一和它本身整除的数。
+ Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+说一下嫦娥的故事。
+
+### Response:嫦娥是一个美丽的女巫，住在天上，与太上老君结为夫妻。她经常拜访人间，给那里的人带来幸福和繁荣。一天，她在散步时发现了一棵桃树，决定摘下一朵果来吃。果实变成了一个美丽的女孩，被称为柳林红。嫦娥带着她回到天上，她成为了太上老君的新妻子。
+ Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+从1数到50.
+
+### Response:1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50.

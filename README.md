@@ -30,7 +30,6 @@ _<sup>*</sup>Longyue Wang is the corresponding author: [vincentwang0229@gmail.co
 
 
 🦙Chinese-Llama-2 project aims to enhance the understanding, generation, translation capabilities of the large language model Llama-2 in Chinese language. With the application of methods such as LoRA fine-tuning, full-parameter instruction fine-tuning, and secondary pre-training, we cordially invite you to download and utilize the associated datasets, training guides, and model parameters. 
-
 🦙Chinese-Llama-2 旨在进一步增强Llama-2大模型的中文理解、生成、翻译等能力。尝试LoRA微调、全参数指令微调、二次预训练等技术，欢迎下载并使用相关数据集、训练教程、模型参数。
 
 

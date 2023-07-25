@@ -1,8 +1,8 @@
-# Chinese-Llama-2: 中文Llama-2大模型
-
 <div align="center">
   <img src="/logo/Chinese-Llama-2-logo.jpg" alt="Logo" width="200">
 </div>
+
+# Chinese-Llama-2: 中文Llama-2大模型
 
 <!-- **Authors:** -->
 
@@ -18,7 +18,17 @@ _<sup>&dagger;</sup>equal contribution_
 _<sup>*</sup>Longyue Wang is the corresponding author: [vincentwang0229@gmail.com](mailto:vincentwang0229@gmail.com)_
 </div>
 
+<div align="center">
+<img src="https://img.shields.io/badge/Version-1.0.0-blue.svg" alt="Version"> 
 [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)]()
+<img src="https://img.shields.io/github/stars/lyuchenyang/Macaw-LLM?color=yellow" alt="Stars">
+<img src="https://img.shields.io/github/issues/lyuchenyang/Macaw-LLM?color=red" alt="Issues">
+<img src="https://img.shields.io/badge/python-3.8-purple.svg" alt="Python">
+
+🦙Chinese-Llama-2 project aims to enhance the understanding, generation, translation capabilities of the large language model Llama-2 in Chinese language. With the application of methods such as LoRA fine-tuning, full-parameter instruction fine-tuning, and secondary pre-training, we cordially invite you to download and utilize the associated datasets, training guides, and model parameters. 
+
+[打call]🦙Chinese-Llama-2 旨在进一步增强Llama-2大模型的中文理解、生成、翻译等能力。尝试LoRA微调、全参数指令微调、二次预训练等技术，欢迎下载并使用相关数据集、训练教程、模型参数。
+
 
 ## News
 * [2023.07.22] :rocket: We fine-tune the Llama-2 on the Chinese instruction dataset, known as Chinese-Llama-2, and release the Chinese-Llama-2-7B at [seeledu/Chinese-Llama-2-7B](https://huggingface.co/seeledu/Chinese-Llama-2-7B). The full instruction fine-tuning code and example data are also released.

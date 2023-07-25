@@ -131,7 +131,7 @@ Example 2:
 We finetune Llama-2 on the Chinese Alpaca instruction dataset, which consists of 51K examples.
 
 
-### Fine-Tuning
+### Parameter-efficient Fine-Tuning
 
 To finetune Llama-2 using LoRA on the Chinese instruction dataset, Run the command to start LoRA finetune:
 ```bash
@@ -190,6 +190,7 @@ torchrun --nnodes 1 --node_rank $INDEX --nproc_per_node 8 \
   --output_dir ${model_save}
 ```
 
+### Full Parameter Fine-tuning
 To finetune Llama-2 using full parameters fine-tuning on the Chinese instruction dataset, run the command to start :
 ```bash
 # Multi-nodes are also supported

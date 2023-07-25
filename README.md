@@ -1,5 +1,9 @@
 # Chinese-Llama-2: 中文Llama-2大模型
 
+<div align="center">
+  <img src="/logo/Chinese-Llama-2-logo.jpg" alt="Logo" width="200">
+</div>
+
 <!-- **Authors:** -->
 
 **_¹ <sup>&dagger;</sup>[Zefeng Du](https://seeledu.github.io/index-en.html), ² <sup>&dagger;</sup>[Minghao Wu](https://minghao-wu.github.io/), <sup>*</sup> [Longyue Wang](http://www.longyuewang.com/)_**

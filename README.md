@@ -20,14 +20,16 @@ _<sup>*</sup>Longyue Wang is the corresponding author: [vincentwang0229@gmail.co
 
 <div align="center">
 <img src="https://img.shields.io/badge/Version-1.0.0-blue.svg" alt="Version"> 
-[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)]()
 <img src="https://img.shields.io/github/stars/lyuchenyang/Macaw-LLM?color=yellow" alt="Stars">
 <img src="https://img.shields.io/github/issues/lyuchenyang/Macaw-LLM?color=red" alt="Issues">
 <img src="https://img.shields.io/badge/python-3.8-purple.svg" alt="Python">
+</div>
+
+[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)]()
 
 🦙Chinese-Llama-2 project aims to enhance the understanding, generation, translation capabilities of the large language model Llama-2 in Chinese language. With the application of methods such as LoRA fine-tuning, full-parameter instruction fine-tuning, and secondary pre-training, we cordially invite you to download and utilize the associated datasets, training guides, and model parameters. 
 
-[打call]🦙Chinese-Llama-2 旨在进一步增强Llama-2大模型的中文理解、生成、翻译等能力。尝试LoRA微调、全参数指令微调、二次预训练等技术，欢迎下载并使用相关数据集、训练教程、模型参数。
+🦙Chinese-Llama-2 旨在进一步增强Llama-2大模型的中文理解、生成、翻译等能力。尝试LoRA微调、全参数指令微调、二次预训练等技术，欢迎下载并使用相关数据集、训练教程、模型参数。
 
 
 ## News

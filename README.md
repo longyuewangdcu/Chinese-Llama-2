@@ -268,3 +268,15 @@ Chinese-Llama-2 builds upon the Llama-2 developed by MetaAI. We would like to ex
 - [Parrot](https://github.com/wxjiao/parrot) for providing a helpful implementation of the training of LLaMA.
 - [LLaMA-2](https://huggingface.co/docs/transformers/main/model_doc/llama2) for providing a powerful LLM.
 
+## Citation
+
+```bibtex
+@misc{du-etal-2022-chinese-llama-2,
+  author = {Zefeng Du, Minghao Wu, Longyue Wang},
+  title = {Chinese-Llama-2},
+  year = {2023},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/longyuewangdcu/Chinese-Llama-2}}
+}
+```

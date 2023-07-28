@@ -44,7 +44,7 @@ Chinese-Llama-2 is a project that aims to expand the impressive capabilities of 
 
 1. **Parameter-efficient fine-tuning**: We employ the [LoRA (Low-Rank Adaptation)](https://arxiv.org/abs/2106.09685) technique to fine-tune Llama-2 specifically for the Chinese instruction dataset. This approach optimizes the model's performance while minimizing the number of required parameters.
 
-2. **Full instruction fine-tuning**: We fine-tune all parameters of Llama-2 on the Chinese instruction dataset, [BAAI/COIG] (https://huggingface.co/datasets/BAAI/COIG) and Chinese-English Doc-level translation dataset. By allowing the model to adapt fully to the characteristics of the Chinese language, we enhance its proficiency and accuracy in generating Chinese text.
+2. **Full instruction fine-tuning**: We fine-tune all parameters of Llama-2 on the Chinese instruction dataset, [BAAI/COIG] (https://huggingface.co/datasets/BAAI/COIG) and Chinese-English Doc-level translation dataset. By allowing the model to adapt fully to the characteristics of the Chinese language, we enhance its proficiency and accuracy in generating Chinese text. 
 
 3. **Continued pre-training**: To further enhance Llama-2's Chinese language understanding, we continue its pre-training on large-scale Chinese corpora. By exposing the model to vast amounts of Chinese text data, we enable it to capture intricate linguistic patterns and nuances, resulting in improved language generation.
 
@@ -252,13 +252,14 @@ torchrun --nnodes $HOST_NUM --node_rank $INDEX --nproc_per_node 8 \
 ## TODO
 
 1. Continued pre-training
-2. Release fine-tuned data we used
+2. Based on llama2-chat, do SFT.
+3. Release fine-tuned data we used
 
 Stay tuned!
 
 ## Contributing
 
-Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request. We appreciate your contributions to make Chinese-Llama-2 even better.
+Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request. We appreciate your contributions to making Chinese-Llama-2 even better.
 
 
 ## Acknowledgments

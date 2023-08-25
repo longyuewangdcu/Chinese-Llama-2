@@ -6,7 +6,7 @@
 
 <!-- **Authors:** -->
 
-**_¹ <sup>&dagger;</sup>[Zefeng Du](https://seeledu.github.io/index-en.html), ² <sup>&dagger;</sup>[Minghao Wu](https://minghao-wu.github.io/), <sup>*</sup> [Longyue Wang](http://www.longyuewang.com/)_**
+**_¹ <sup>&dagger;</sup>[Zefeng Du](https://seeledu.github.io/index-en.html), ² <sup>&dagger;</sup>[Minghao Wu](https://minghao-wu.github.io/), ¹ [Derek Wong](https://www.fst.um.edu.mo/people/derekfw), <sup>*</sup> [Longyue Wang](http://www.longyuewang.com/)_**
 
 
 <!-- **Affiliations:** -->

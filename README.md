@@ -6,7 +6,7 @@
 
 <!-- **Authors:** -->
 
-**_¹ <sup>&dagger;</sup>[Zefeng Du](https://seeledu.github.io/index-en.html), ² <sup>&dagger;</sup>[Minghao Wu](https://minghao-wu.github.io/),¹ [Jianhui Pang](https://scholar.google.com/citations?user=sOH2i3UAAAAJ&hl=en), ¹ [Derek Wong](https://www.fst.um.edu.mo/people/derekfw), <sup>*</sup> [Longyue Wang](http://www.longyuewang.com/), [Zhaopeng Tu](http://www.zptu.net/)_**
+**_¹[Zefeng Du](https://seeledu.github.io/index-en.html)<sup>&dagger;</sup>, ²[Minghao Wu](https://minghao-wu.github.io/)<sup>&dagger;</sup>, ¹[Jianhui Pang](https://scholar.google.com/citations?user=sOH2i3UAAAAJ&hl=en)<sup>&dagger;</sup>, ¹[Derek Wong](https://www.fst.um.edu.mo/people/derekfw), [Longyue Wang](http://www.longyuewang.com/)<sup>*</sup>, [Zhaopeng Tu](http://www.zptu.net/)_**
 
 
 <!-- **Affiliations:** -->

@@ -34,7 +34,7 @@ _<sup>*</sup>Longyue Wang is the corresponding author: [vincentwang0229@gmail.co
 
 
 ## News
-* [2023.11.28] :rocket: We continiously pretrain Llama-2 on 400GB Chinese and English literary texts and then fine-tune it on Chinese instruction dataset at [Chinese-Llama-2-7B-conpre](https://share.weiyun.com/gKpPso7A).
+* [2023.11.28] :rocket: We continuously pretrain Llama-2 on 400GB Chinese and English literary texts and then fine-tune it on Chinese instruction dataset at [Chinese-Llama-2-7B-conpre](https://share.weiyun.com/gKpPso7A).
 * [2023.07.22] :rocket: We fine-tune the Llama-2 on the Chinese instruction dataset, known as Chinese-Llama-2, and release the Chinese-Llama-2-7B at [seeledu/Chinese-Llama-2-7B](https://huggingface.co/seeledu/Chinese-Llama-2-7B). The full instruction fine-tuning code and example data are also released.
 * [2023.07.20] :rocket: We fine-tune the Llama-2 on the Chinese instruction dataset using LoRA technique, known as Chinese-Llama-2-LoRA, and release the [Chinese-Llama-2-LoRA-7B](https://huggingface.co/seeledu/Chinese-Llama-2-LoRA-7B/).
 * [2023.07.18] :tada::tada::tada: [Llama-2 is announced!](https://ai.meta.com/llama/)
